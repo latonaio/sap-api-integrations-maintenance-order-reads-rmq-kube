@@ -123,14 +123,14 @@ func (c *SAPAPICaller) AsyncGetMaintenanceOrder(maintenanceOrder string, accepte
 
 ```
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 保全指図 の ヘッダデータ が取得された結果の JSON の例です。  
 以下の項目のうち、"MaintenanceOrder" ～ "to_MaintOrderObjectListItem" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
 
 ```
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-maintenance-order-reads-rmq-kube/SAP_API_Caller/caller.go#L53",
-	"function": "sap-api-integrations-maintenance-order-reads-rmq-kube/SAP_API_Caller.(*SAPAPICaller).Header",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-maintenance-order-reads/SAP_API_Caller/caller.go#L53",
+	"function": "sap-api-integrations-maintenance-order-reads/SAP_API_Caller.(*SAPAPICaller).Header",
 	"level": "INFO",
 	"message": [
 		{
@@ -138,17 +138,17 @@ func (c *SAPAPICaller) AsyncGetMaintenanceOrder(maintenanceOrder string, accepte
 			"MaintOrderRoutingNumber": "1000000063",
 			"MaintenanceOrderType": "YBA2",
 			"MaintenanceOrderDesc": "Mechanical Inspection for Pump",
-			"MaintOrdBasicStartDateTime": "/Date(1501027200000+0000)/",
-			"MaintOrdBasicEndDateTime": "/Date(1501113600000+0000)/",
-			"MaintOrdBasicStartDate": "/Date(1501027200000)/",
+			"MaintOrdBasicStartDateTime": "",
+			"MaintOrdBasicEndDateTime": "",
+			"MaintOrdBasicStartDate": "2017-07-26T09:00:00+09:00",
 			"MaintOrdBasicStartTime": "PT00H00M00S",
-			"MaintOrdBasicEndDate": "/Date(1501113600000)/",
+			"MaintOrdBasicEndDate": "2017-07-27T09:00:00+09:00",
 			"MaintOrdBasicEndTime": "PT00H00M00S",
-			"MaintOrdSchedldBscStrtDateTime": "/Date(1501048800000+0000)/",
-			"MaintOrdSchedldBscEndDateTime": "/Date(1501052625000+0000)/",
-			"ScheduledBasicStartDate": "/Date(1501027200000)/",
+			"MaintOrdSchedldBscStrtDateTime": "",
+			"MaintOrdSchedldBscEndDateTime": "",
+			"ScheduledBasicStartDate": "2017-07-26T09:00:00+09:00",
 			"ScheduledBasicStartTime": "PT06H00M00S",
-			"ScheduledBasicEndDate": "/Date(1501027200000)/",
+			"ScheduledBasicEndDate": "2017-07-26T09:00:00+09:00",
 			"ScheduledBasicEndTime": "PT07H03M45S",
 			"MaintenanceNotification": "10000002",
 			"OrdIsNotSchedldAutomatically": "",
@@ -208,6 +208,6 @@ func (c *SAPAPICaller) AsyncGetMaintenanceOrder(maintenanceOrder string, accepte
 			"to_MaintOrderObjectListItem": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTENANCEORDER/MaintenanceOrder('4000000')/to_MaintOrderObjectListItem"
 		}
 	],
-	"time": "2021-12-24T19:00:39.583823+09:00"
+	"time": "2022-01-28T17:28:31+09:00"
 }
 ```

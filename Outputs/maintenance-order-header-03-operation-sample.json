@@ -48,8 +48,8 @@
 			"MaintOrdOpConstraintStrtDteTme": "",
 			"ConstraintDateForBscStartDate": "",
 			"ConstraintTimeForBscStartTime": "PT00H00M00S",
-			"MaintOrdOpCstrtFinishDteTme": "/Date(-62135683200000+0000)/",
-			"ConstraintDateForBscFinishDate": "/Date(-62135683200000)/",
+			"MaintOrdOpCstrtFinishDteTme": "",
+			"ConstraintDateForBscFinishDate": "",
 			"ConstraintTimeForBscFinishTime": "PT00H00M00S",
 			"MaintOrdOperationExecutionRate": "1",
 			"Equipment": "",
@@ -71,17 +71,17 @@
 			"MaintenanceObjectListItem": 0,
 			"PurchaseRequisition": "",
 			"PurchaseRequisitionItem": "0",
-			"OpErlstSchedldExecStrtDte": "/Date(1501027200000)/",
+			"OpErlstSchedldExecStrtDte": "2017-07-26T09:00:00+09:00",
 			"OpErlstSchedldExecStrtTme": "PT06H00M00S",
-			"OpErlstSchedldExecEndDte": "/Date(1501027200000)/",
+			"OpErlstSchedldExecEndDte": "2017-07-26T09:00:00+09:00",
 			"OpErlstSchedldExecEndTme": "PT07H03M45S",
-			"OpLtstSchedldExecStrtDte": "/Date(1501027200000)/",
+			"OpLtstSchedldExecStrtDte": "2017-07-26T09:00:00+09:00",
 			"OpLtstSchedldExecStrtTme": "PT06H00M00S",
-			"OpLtstSchedldExecEndDte": "/Date(1501027200000)/",
+			"OpLtstSchedldExecEndDte": "2017-07-26T09:00:00+09:00",
 			"OpLtstSchedldExecEndTme": "PT07H03M45S",
-			"OpActualExecutionStartDate": "/Date(1498435200000)/",
+			"OpActualExecutionStartDate": "2017-06-26T09:00:00+09:00",
 			"OpActualExecutionStartTime": "PT00H00M00S",
-			"OpActualExecutionEndDate": "/Date(1498435200000)/",
+			"OpActualExecutionEndDate": "2017-06-26T09:00:00+09:00",
 			"OpActualExecutionEndTime": "PT10H00M16S",
 			"ForecastWorkQuantity": "2.0",
 			"ActualWorkQuantity": "2.000",
@@ -92,5 +92,5 @@
 			"to_MaintOrderOpComponent": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTENANCEORDER/MaintenanceOrderOperation(MaintenanceOrder='4000000',MaintenanceOrderOperation='0010',MaintenanceOrderSubOperation='')/to_MaintOrderOpComponent"
 		}
 	],
-	"time": "2021-12-24T19:00:42.039267+09:00"
+	"time": "2022-01-28T17:28:33+09:00"
 }

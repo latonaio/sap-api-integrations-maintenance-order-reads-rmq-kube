@@ -19,7 +19,7 @@
 			"BaseUnit": "PC",
 			"QuantityInUnitOfEntry": "1",
 			"UnitOfEntry": "PC",
-			"RequirementDate": "/Date(1501027200000)/",
+			"RequirementDate": "2017-07-26T09:00:00+09:00",
 			"RequirementTime": "PT06H00M00S",
 			"Supplier": "",
 			"Plant": "1710",
@@ -84,5 +84,5 @@
 			"ExpectedOverallLimitAmount": "0.00"
 		}
 	],
-	"time": "2021-12-24T19:00:45.522137+09:00"
+	"time": "2022-01-28T17:28:37+09:00"
 }

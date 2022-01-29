@@ -8,17 +8,17 @@
 			"MaintOrderRoutingNumber": "1000000063",
 			"MaintenanceOrderType": "YBA2",
 			"MaintenanceOrderDesc": "Mechanical Inspection for Pump",
-			"MaintOrdBasicStartDateTime": "/Date(1501027200000+0000)/",
-			"MaintOrdBasicEndDateTime": "/Date(1501113600000+0000)/",
-			"MaintOrdBasicStartDate": "/Date(1501027200000)/",
+			"MaintOrdBasicStartDateTime": "",
+			"MaintOrdBasicEndDateTime": "",
+			"MaintOrdBasicStartDate": "2017-07-26T09:00:00+09:00",
 			"MaintOrdBasicStartTime": "PT00H00M00S",
-			"MaintOrdBasicEndDate": "/Date(1501113600000)/",
+			"MaintOrdBasicEndDate": "2017-07-27T09:00:00+09:00",
 			"MaintOrdBasicEndTime": "PT00H00M00S",
-			"MaintOrdSchedldBscStrtDateTime": "/Date(1501048800000+0000)/",
-			"MaintOrdSchedldBscEndDateTime": "/Date(1501052625000+0000)/",
-			"ScheduledBasicStartDate": "/Date(1501027200000)/",
+			"MaintOrdSchedldBscStrtDateTime": "",
+			"MaintOrdSchedldBscEndDateTime": "",
+			"ScheduledBasicStartDate": "2017-07-26T09:00:00+09:00",
 			"ScheduledBasicStartTime": "PT06H00M00S",
-			"ScheduledBasicEndDate": "/Date(1501027200000)/",
+			"ScheduledBasicEndDate": "2017-07-26T09:00:00+09:00",
 			"ScheduledBasicEndTime": "PT07H03M45S",
 			"MaintenanceNotification": "10000002",
 			"OrdIsNotSchedldAutomatically": "",
@@ -78,5 +78,5 @@
 			"to_MaintOrderObjectListItem": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTENANCEORDER/MaintenanceOrder('4000000')/to_MaintOrderObjectListItem"
 		}
 	],
-	"time": "2021-12-24T19:00:39.583823+09:00"
+	"time": "2022-01-28T17:28:31+09:00"
 }
